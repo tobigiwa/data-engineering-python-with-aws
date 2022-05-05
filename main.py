@@ -16,7 +16,7 @@ for i in range(1, 1001):    # '1000 data to be generated(name, address, city, jo
 # print(data)   # ' to view data in terminal'
 
 # 'Writing data to csv file'
-with open('fle100.csv', 'w') as outfile:
+with open('file100.csv', 'w') as outfile:
     writer = csv.writer(outfile)
     writer.writerow(['ID_NO', 'NAME', 'ADDRESS', 'CITY', 'JOB', 'COUNTRY', 'PHONE']) # 'Providing header row'
     writer.writerows(data)
