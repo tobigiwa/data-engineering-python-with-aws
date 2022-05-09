@@ -10,15 +10,10 @@ It is general advice to use a virtual env to test or run programs, so you might 
 'NOTE: the name of your virtualenv appears in a bracket starting ur filepath, indicating env is successfully activated'
 
 2) PACKAGES/LIBRARY TO INSTALL
->> $ pip install boto3
->> $ pip install configparser
->> $ pip install faker
+>> $ pip install -r requirement.txt
 
-3) To successfully run this program, you have to create an Amazon S3 bucket  which is "publicly accessible". Please do check the web for further information on creating a s3 bucket (it is quite simple).
-
-4) Create a file "connection.conf"  to place in your AWS login credentials for the s3 bucket (i've '.gitignore' mine).
+3) Create a file "connection.conf"  to place in your AWS login credentials for the s3 bucket (i've '.gitignore' mine).
 Supply this into the file:
-
  ---
 [aws_boto_credentials]
 access_key = <put_in_ur_info>
@@ -27,15 +22,10 @@ bucket_name = <put_in_ur_info>
 account_id = <put_in_ur_info>
  ---
 
-5) Now  RUN the program (main.py) in your favourite IDE or terminal.
-
-6) Check your S3 bucket to verify.
-
-7) POSSIBLE ERRORS
+4) POSSIBLE ERRORS
 -- Ensure your internet connection is on.
--- Ensure your s3 bucket is "publicly accessible".
 -- Ensure the 'connection.conf' path is within the folder or path clearly stated.
 
-8) Reach me at 'oluwatobitobias@gmail.com' if need be.
+5) Reach me at 'oluwatobitobias@gmail.com' if need be.
 
 
