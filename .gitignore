@@ -1,3 +1,4 @@
+
 play/
 
 __pycache__/
@@ -5,3 +6,4 @@ __pycache__/
 *.xml
 *.iml
 
+.idea/
