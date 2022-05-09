@@ -1,1 +1,9 @@
+
+play/
+
+__pycache__/
+
+*.xml
+*.iml
+
 .idea/
