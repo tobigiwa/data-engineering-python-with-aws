@@ -1,22 +1,26 @@
 # Learning Data Engineering
 ## Project Description:
 This is a simple python program that:
-> - CREATES an AWS S3 bucket ***programmatically*** using the [`boto3 library`] (https://boto3.readthedocs.io),
+ - CREATES an AWS S3 bucket ***programmatically*** using the [`boto3 library`] (https://boto3.readthedocs.io),
 
-> - UPLOAD a csv file contained with arbitrary(fake) data generated with the python `faker library` to the created  S3 bucket using the `boto3 library`,
+ - UPLOAD a csv file contained with arbitrary(fake) data generated with the python `faker library` to the created  S3 bucket using the `boto3 library`,
 
-> - DELETE the bucket and its contents with the `boto3 library`.
+ - DELETE the bucket and its contents with the `boto3 library`.
 
 ## Project objective: 
+
+![csv_aws](assets/csv_s3.jpg) ![python_with_AWS_boto3](assets/python_with_aws_boto3_api.jpg)
+
+The projects aims to demonsrate simply how to use python with AWS via it Boto3 library in connecting/upload to an S3 bucket.
+
 Programmatically was emphasized because all this actions can be done similarly with the AWS console, but performing this actions with python scripts gives the ***GREAT ADVANTAGE OF AUTOMATION*** and as a _Data Engineer_, this is a pioneering mindset.
 
 ## How to run the program:
-> - A functioning AWS account with the below information; 
->   - `aws_access_key_id`
->   - `aws_secret_access_key`
+ - A functioning AWS account with the below information; 
+   - `aws_access_key_id`
+   - `aws_secret_access_key`
 
-
->   - The project does contain a `requirement.txt`, install the required libraries by running `$ pip install -r requirement.txt` in the project terminal.
+- The project does contain a `requirement.txt`, install the required libraries by running `$ pip install -r requirement.txt` in the project terminal.
 
 It is advisable to use an [`AWS IAM USER`], read about this from (https://docs.aws.amazon.com) for best practices as I also did.
 >### additional information:
