@@ -25,7 +25,7 @@ Programmatically was emphasized because all this actions can be done similarly w
    - `aws_access_key_id`
    - `aws_secret_access_key`
 
-- The project does contain a `requirement.txt`, install the required libraries by running `$ pip install -r requirement.txt` in the project terminal.
+- The project does contain a requirement.txt, install the required libraries by running `$ pip install -r requirement.txt` in the project terminal.
 
 It is advisable to use an [`AWS IAM USER`], read about this from (https://docs.aws.amazon.com) for best practices as I also did.
 >### additional information:
@@ -38,7 +38,7 @@ Unfortunately we cannot create an AWS account from a python script :rofl: :rofl:
 ## Note:
  The information from the requirements (**access_key, secret_access_key and bucket_name**) would be supplied into the `connection.conf` which is the ***only expected section of this program to be altered to successfully run the program***. Of course, it's your code now :+1:, you can make any amount of changes.
  
-> I used both of the `boto3` API call - `Client` and `Resource` for the sake of *expanding our horizons*, either is completely usable alone to run the program, I'll encourage to check the internet for more to see the difference.
+ I used both of the `boto3` API call - `Client` and `Resource` for the sake of *expanding our horizons*, either is completely usable alone to run the program, I'll encourage to check the internet for more to see the difference.
 
 
 ## Using the scripts:
