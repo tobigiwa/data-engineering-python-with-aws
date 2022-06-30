@@ -7,6 +7,9 @@ This is a simple python program that:
 
  - DELETE the bucket and its contents with the `boto3 library`.
 
+ ### Level:
+Beginner Friendly :sunglasses: :sunglasses:
+
 ## Project objective: 
 
 ![csv_aws](assets/csv_s3.jpg) ![python_with_AWS_boto3](assets/python_with_aws_boto3_api.jpg)
@@ -18,7 +21,7 @@ Programmatically was emphasized because all this actions can be done similarly w
 ## Technologies/Packages/Tools used:
 *  Cloud services - AWS S3 object storage
 *  Python faker library
-*  Languages -- Python and SQL
+*  Languages -- Python
 
 ## How to run the program:
  - A functioning AWS account with the below information; 
